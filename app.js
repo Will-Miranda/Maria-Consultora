@@ -76,21 +76,21 @@ const APP_DATA = {
         {
             id: 1,
             nome: "Ana Silva",
-            avatar: "perfil-depoimento.png",
+            avatar: "Perfil-fund-transp.png",
             avaliacao: 5,
             texto: "Uso os produtos da Maria há 3 meses e minha qualidade de vida melhorou muito. Mais energia e disposição!"
         },
         {
             id: 2,
             nome: "Carlos Santos",
-            avatar: "perfil-depoimento.png", 
+            avatar: "Perfil-fund-transp.png", 
             avaliacao: 5,
             texto: "Excelente qualidade e atendimento. Os produtos realmente funcionam e entregam o que prometem."
         },
         {
             id: 3,
             nome: "Mariana Costa",
-            avatar: "perfil-depoimento.png",
+            avatar: "Perfil-fund-transp.png",
             avaliacao: 5,
             texto: "Recomendo de olhos fechados! A Maria é uma consultora maravilhosa e os produtos são top de linha."
         }
