@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maria Consultora - Produtos de qualidade premium para bem-estar e saúde">
+    <meta name="theme-color" content="#262D2D">
+    <title>Maria Consultora</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/global.css">
+</head>
+<body>
+    <div id="header-container" class="header-container">
+        <header class="header">
+            <div class="header__logo">
+                <h1>Maria Consultora</h1>
+            </div>
+
+            <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="header__nav" data-component="navigation">
+                <ul class="header__nav-list">
+                    <li class="nav-item"><a href="#banner" class="nav-link" data-section="banner">Home</a></li>
+                    <li class="nav-item"><a href="#produtos" class="nav-link" data-section="produtos">Produtos</a></li>
+                    <li class="nav-item"><a href="#comprar" class="nav-link" data-section="comprar">Comprar</a></li>
+                    <li class="nav-item"><a href="#depoimentos" class="nav-link" data-section="depoimentos">Depoimentos</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link" data-section="contact">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main id="main-content" class="main-content">
+        <section id="banner" class="section banner" data-section="banner">
+            <div class="banner__content">
+                <div class="banner__image">
+                    <img src="./img/Perfil-fund-transp.png" alt="Perfil de Maria Consultora">
+                </div>
+                <div class="banner__text">
+                    <h2>Cuidado natural que você sente nos resultados</h2>
+                    <p>Uma fórmula desenvolvida para quem busca equilíbrio, bem-estar e uma rotina mais leve, com ingredientes selecionados e qualidade premium.</p>
+                    <button class="btn btn--primary" data-action="cta-banner">Quero experimentar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="section produtos-section" data-section="produtos">
+            <div class="produtos__container" data-component="product-grid"></div>
+        </section>
+
+        <section id="comprar" class="section comprar-section" data-section="comprar">
+            <div class="comprar__container" data-component="purchase-grid"></div>
+        </section>
+
+        <section id="apresentacao" class="section about-section" data-section="apresentacao">
+            <div class="about__container">
+                <img class="about__image" src="./img/apresentacao.png" alt="Imagem sobre Maria Consultora">
+                <div class="about__content">
+                    <h2>Olá, sou Maria Luiza</h2>
+                    <p>
+                        Consultora de vendas, e meu foco é oferecer um atendimento Claro, Personalizado e Eficiente, entendendo exatamente o que você precisa para indicar a melhor solução.<br>
+                        Trabalho com Transparência, Agilidade e Compromisso, garantindo uma experiência segura do primeiro contato até a finalização da compra.<br>
+                        👉 Conte comigo para um atendimento direto, confiável e sem complicações.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="section testimonials-section" data-section="depoimentos">
+            <h2 class="section__title">Depoimentos</h2>
+            <div class="testimonials__container" data-component="testimonials-grid"></div>
+        </section>
+
+        <section id="contact" class="section contact-section" data-section="contact">
+            <h2 class="section__title">Entre em contato</h2>
+            <form id="contact-form" class="contact__form" data-component="contact-form">
+                <div class="form__group">
+                    <label for="name" class="form__label">Nome:</label>
+                    <input type="text" id="name" name="name" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="email" class="form__label">Email:</label>
+                    <input type="email" id="email" name="email" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="message" class="form__label">Mensagem:</label>
+                    <textarea id="message" name="message" class="form__textarea" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer__social">
+            <a href="https://wa.me/5528999282524" target="_blank" class="footer__social-link" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/mariaconsultorav" target="_blank" class="footer__social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <p class="footer__text">&copy; 2024 Maria Consultora. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- WhatsApp Flutuante -->
+    <a href="https://wa.me/5528999282524" target="_blank" class="whatsapp-float" aria-label="Contato via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts principais -->
+    <script type="module" src="./app.js"></script>
+
+</body>
+</html>
