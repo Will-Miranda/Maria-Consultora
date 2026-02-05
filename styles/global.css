@@ -535,7 +535,7 @@ p {
    ============================================ */
 
 .banner {
-  background-image: url(/img/fund-perfil.png);
+  background-image: url(./img/fund-perfil.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
