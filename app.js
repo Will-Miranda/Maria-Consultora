@@ -76,21 +76,21 @@ const APP_DATA = {
         {
             id: 1,
             nome: "Ana Silva",
-            avatar: "Perfil-fund-transp.png",
+            avatar: "perfil-depoimento.png",
             avaliacao: 5,
             texto: "Uso os produtos da Maria há 3 meses e minha qualidade de vida melhorou muito. Mais energia e disposição!"
         },
         {
             id: 2,
             nome: "Carlos Santos",
-            avatar: "Perfil-fund-transp.png", 
+            avatar: "perfil-depoimento.png", 
             avaliacao: 5,
             texto: "Excelente qualidade e atendimento. Os produtos realmente funcionam e entregam o que prometem."
         },
         {
             id: 3,
             nome: "Mariana Costa",
-            avatar: "Perfil-fund-transp.png",
+            avatar: "perfil-depoimento.png",
             avaliacao: 5,
             texto: "Recomendo de olhos fechados! A Maria é uma consultora maravilhosa e os produtos são top de linha."
         }
@@ -473,7 +473,7 @@ class UIManager {
         *Tenho:* ${formData.message}
         *Enviado através do site oficial*`;
 
-        const url = `https://wa.me/5528999282524?text=${encodeURIComponent(textoWhatsApp)}`;
+        const url = `https://wa.me/5527996700465?text=${encodeURIComponent(textoWhatsApp)}`;
         window.open(url, '_blank');
     }
 }
