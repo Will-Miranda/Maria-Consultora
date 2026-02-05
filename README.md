@@ -68,17 +68,9 @@ projeto-maria-vendas/
 
 4. Acesse `http://localhost:8000` no seu navegador.
 
-## 📱 Contato
-
-- **WhatsApp**: +55 28 99928-2524
-- **Instagram**: [@mariaconsultorav](https://instagram.com/mariaconsultorav)
 
 ## 📝 Licença
 
 © 2024 Maria Consultora. Todos os direitos reservados.
 
 ---
-
-## 🤝 Contribuições
-
-Este é um projeto comercial. Para sugestões ou melhorias, entre em contato diretamente com a Maria Consultora através dos canais de contato disponíveis no site.
