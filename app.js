@@ -27,15 +27,15 @@ const APP_DATA = {
                 "✨ Sabor agradável, fórmula segura, adoçado com sucralose e garantia de 90 dias."
             ],
             destaque: true,
-            preco: 69.90,
-            precoOriginal: 129.90,
+            preco: 209.90,
+            precoOriginal: 299.90,
             parcelamento: {
                 vezes: 12,
-                valorParcela: 5.82
+                valorParcela: 24.66
             },
             desconto: {
-                percentual: 47,
-                economia: 60.00
+                percentual: 28.67,
+                economia: 86.02
             },
             link: "#comprar"
         },
@@ -57,15 +57,15 @@ const APP_DATA = {
                 "👉 Indicada para homens e mulheres a partir de 18 anos que desejam evoluir nos treinos, ganhar massa magra, reduzir a fadiga e manter energia ao longo do dia."
             ],
             destaque: false,
-            preco: 159.90,
-            precoOriginal: 299.90,
+            preco: 197.00,
+            precoOriginal: 249.90,
             parcelamento: {
                 vezes: 12,
-                valorParcela: 13.32
+                valorParcela: 23.34
             },
             desconto: {
-                percentual: 47,
-                economia: 140.00
+                percentual: 21.17,
+                economia: 52.90
             },
             link: "#comprar"
         }
