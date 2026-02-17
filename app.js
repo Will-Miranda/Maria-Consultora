@@ -75,24 +75,18 @@ const APP_DATA = {
     depoimentos: [
         {
             id: 1,
-            nome: "Ana Silva",
-            avatar: "perfil-depoimento.png",
-            avaliacao: 5,
-            texto: "Uso os produtos da Maria há 3 meses e minha qualidade de vida melhorou muito. Mais energia e disposição!"
+            nome: "Secaps",
+            avatar: "img-secaps1.jpeg",
         },
         {
             id: 2,
-            nome: "Carlos Santos",
-            avatar: "perfil-depoimento.png", 
-            avaliacao: 5,
-            texto: "Excelente qualidade e atendimento. Os produtos realmente funcionam e entregam o que prometem."
+            nome: "Secaps",
+            avatar: "img-secaps2.jpeg", 
         },
         {
             id: 3,
-            nome: "Mariana Costa",
-            avatar: "perfil-depoimento.png",
-            avaliacao: 5,
-            texto: "Recomendo de olhos fechados! A Maria é uma consultora maravilhosa e os produtos são top de linha."
+            nome: "Secaps",
+            avatar: "img-secaps3.jpeg",
         }
     ]
 };
@@ -208,12 +202,7 @@ class UIManager {
             <div class="testimonial-card" data-depoimento-id="${depoimento.id}">
                 <div class="testimonial-card__header">
                     <img src="./img/${depoimento.avatar}" alt="${depoimento.nome}" class="testimonial-card__avatar">
-                    <div class="testimonial-card__info">
-                        <div class="testimonial-card__author">${depoimento.nome}</div>
-                        <div class="testimonial-card__rating">${'★'.repeat(depoimento.avaliacao)}</div>
-                    </div>
                 </div>
-                <div class="testimonial-card__text">"${depoimento.texto}"</div>
             </div>
         `).join('');
 
